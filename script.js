@@ -7,16 +7,9 @@ $(document).ready(function () {
   });
   
   $(document).ready(function () {
-    $("#page-mask").click(function (e) {
+    $("#page_mask").click(function (e) {
       $(".login_form").css("display", "none");
       $("#page_mask").css("display", "none");
     });
   });
   
-  var loginStatus = "";
-  
-  if (loginStatus == "try_again" && loginStatus !== "") {
-    $(".login_form").css("display", "block");
-    $("#page_mask").css("display", "block");
-    $("#error_msg").css("opacity", "1");
-  }
