@@ -152,29 +152,45 @@ body {
 }
 
 .plans_section {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plans_title {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-bottom: 10px;
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plans_desc {
     text-align: center;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plans_widgets {
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     margin-top: 85px;
+=======
+    margin-top: 55px;
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plan_box {
     width: 300px;
+<<<<<<< HEAD
     height: 300px;
     border: 3px solid #777373;
     border-radius: 15px;
@@ -183,6 +199,15 @@ body {
     transition: 1s;
     cursor: pointer;
     background: #ebeaea;
+=======
+    height: 260px;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 3px 1px 0px #dedede;
+    transition: 2s;
+    cursor: pointer;
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plan_header {
@@ -195,7 +220,11 @@ body {
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+<<<<<<< HEAD
     margin-bottom: 25px;
+=======
+    margin-bottom: 20px;
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
 }
 
 .plan_features {
@@ -211,7 +240,11 @@ body {
 }
 
 .feature_item img {
+<<<<<<< HEAD
     height: 30px;
+=======
+    height: 20px;
+>>>>>>> 9de7772352d47274a0d8ebbb336d628ed0916844
     margin-right: 6px;
 }
 
