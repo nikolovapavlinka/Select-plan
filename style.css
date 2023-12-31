@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap');
 
 body {
-margin:0;
-padding: 0;
-font-family: 'Inter', sans-serif;
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f9f8f8;
 }
 
 #page_mask { 
@@ -29,8 +30,12 @@ font-family: 'Inter', sans-serif;
     border-radius: 10px;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background:#afadad;
+    color: #fff;
+    border: 1px solid #7e7a7a94
 }
 
 .sing_in_btn:hover {
@@ -147,35 +152,37 @@ font-family: 'Inter', sans-serif;
 }
 
 .plans_section {
-
+    
 }
 
 .plans_title {
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .plans_desc {
     text-align: center;
+    font-size: 18px;
 }
 
 .plans_widgets {
     display: flex;
     justify-content: space-around;
-    margin-top: 55px;
+    margin-top: 85px;
 }
 
 .plan_box {
     width: 300px;
-    height: 260px;
-    border: 1px solid #dedede;
+    height: 300px;
+    border: 3px solid #777373;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0px 3px 1px 0px #dedede;
-    transition: 2s;
+    transition: 1s;
     cursor: pointer;
+    background: #ebeaea;
 }
 
 .plan_header {
@@ -188,7 +195,7 @@ font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .plan_features {
@@ -204,7 +211,7 @@ font-family: 'Inter', sans-serif;
 }
 
 .feature_item img {
-    height: 20px;
+    height: 30px;
     margin-right: 6px;
 }
 
